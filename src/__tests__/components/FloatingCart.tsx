@@ -64,6 +64,7 @@ const navigate = jest.fn();
 
 useNavigationMocked.mockReturnValue({
   navigate,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
 } as any);
 
 describe('Dashboard', () => {
